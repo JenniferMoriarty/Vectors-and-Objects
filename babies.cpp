@@ -30,7 +30,7 @@ int main() {
 	nursery.push_back(&b1);
 
 	//instantiate another baby, parameterized constructor
-	baby b2 = baby("Abe");
+	baby b2 = baby("Mossy");
 	nursery.push_back(&b2);
 
 	//print the babies
@@ -47,7 +47,7 @@ int main() {
 
 	//EVEN MORE BABIES!!!
 	for (int i = 0; i <5; i++) {
-		baby* b4 = new baby("Miguel");//paramaterized constructor
+		baby* b4 = new baby("kyle");//paramaterized constructor
 		nursery.push_back(b4);
 	}
 
@@ -60,7 +60,7 @@ int main() {
 
 //default constructor
 baby::baby() {
-	name = "Isaiah";
+	name = "Simon";
 	DirtyDiaper = false;
 	age = 0;
 }
